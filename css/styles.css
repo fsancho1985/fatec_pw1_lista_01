@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navigation a {
+    margin: 0 25px 0 25px;
+    text-decoration: none;
+    color: #1BA0F2;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.navigation a:hover {
+    color: #03A678;
+}
+
+.profile h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+.profile strong {
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: #bb3d3b;
+}
+
+.important {
+    font-weight: bolder;
+    font-size: 1.7em;
+    color: #bb3d3b;
+}
+
+.content {
+    text-align: center;
+}
+
+.content ul {
+    list-style: none;
+}
+
+footer span {
+    font-style: italic;
+}
